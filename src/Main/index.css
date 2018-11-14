@@ -1,0 +1,12 @@
+.Main {
+    font-family: Arial, sans-serif;
+    max-width:   1066px;
+    margin:      auto;
+}
+
+.Main-Title {
+    color:       #333333;
+    font-size:   36px;
+    font-weight: bold;
+    padding:     34px 0px 32px;
+}
