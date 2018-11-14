@@ -1,8 +1,6 @@
-import * as React from 'react';
-import { cn } from '@bem-react/classname';
-import { RegistryConsumer } from '@bem-react/di';
-// import Header from '../Header';
-// import Main from '../Main';
+import * as React                from 'react';
+import      { cn }               from '@bem-react/classname';
+import      { RegistryConsumer } from '@bem-react/di';
 
 const cnApp    = cn('App');
 const cnHeader = cn('Header');

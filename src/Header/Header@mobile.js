@@ -2,6 +2,7 @@ import React from 'react';
 import { cn } from '@bem-react/classname';
 import logo from './logo.svg';
 import './index.css';
+import './Header@mobile.css';
 
 const cnHeader  = cn('Header'),
       menuItems = [
@@ -19,7 +20,7 @@ export default class Header extends React.Component {
     renderMain = () => {
         return <header className={cnHeader()}>
             <img src={logo} className={cnHeader('Logo')} alt='logo'/>
-            <div>Desktop</div>
+            <img className={cnHeader('List')} src={require('./icon_list.svg')} alt='list' />
             <menu className={cnHeader('Menu')}>
                 {
                     menuItems.map(

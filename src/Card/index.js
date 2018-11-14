@@ -1,7 +1,7 @@
-import React from 'react';
-import { cn } from '@bem-react/classname';
+import React          from 'react';
+import { cn }         from '@bem-react/classname';
 import { withBemMod } from '@bem-react/core';
-import './index.css';
+import                     './index.css';
 
 const cnCard = cn('Card');
 
@@ -30,14 +30,6 @@ function RenderCard({title, type, source, icon, size, time, description, data}) 
         }
 
         return null;
-        // if (
-        //     data.events[i].data.albumcover &&
-        //     data.events[i].data.artist     &&
-        //     data.events[i].data.track      &&
-        //     data.events[i].data.volume
-        // )
-        // if ( data.events[i].data.temperature && data.events[i].data.humidity ) {
-
     }
 
     return (
